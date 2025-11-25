@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Just Note
+Comment=Quick note and that's all we need!
+Exec=qmlscene %u app/Main.qml --scaling --gles 
+Terminal=false
+Type=Application
+Icon=icon.png
+X-Ubuntu-Touch=true
+X-Lomiri-Touch=true
+
+X-Ubuntu-Splash-Color=#fce852
+X-Ubuntu-Splash-Image=icon-splash.png
+
+Name[en_US]=justnote
