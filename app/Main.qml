@@ -78,7 +78,7 @@ UBC.MainView {
             placeholderText: "Type your note here..."
             wrapMode: Text.Wrap
             font.pixelSize: 18
-            inputMethodHints: Qt.ImhNoPredictiveText | Qt.ImhNoEditMenu
+            inputMethodHints: Qt.ImhNoEditMenu
             
             onTextChanged: {
                 changed=true;
