@@ -1,7 +1,7 @@
 import QtQuick.LocalStorage 2.0
-import Ubuntu.Components 1.3 as UBC
+import Lomiri.Components 1.3 as UBC
 import QtQuick.Window 2.8
-import Ubuntu.Content 1.3
+import Lomiri.Content 1.3
 import QtQuick 2.9
 import QtQuick.Controls 2.9
 
@@ -24,7 +24,7 @@ UBC.MainView {
 
     // --- PAGE PRINCIPALE ---
     Item {
-        anchors.bottomMargin:  UbuntuApplication.inputMethod.visible ? UbuntuApplication.inputMethod.keyboardRectangle.height/(units.gridUnit / 8) : 0
+        anchors.bottomMargin:  LomiriApplication.inputMethod.visible ? LomiriApplication.inputMethod.keyboardRectangle.height/(units.gridUnit / 8) : 0
         anchors.fill: parent
         id: mainPage
 
