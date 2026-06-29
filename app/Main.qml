@@ -218,7 +218,6 @@ UBC.MainView {
     repeat: true          // boucle indéfiniment
 
     onTriggered: {
-          console.log(noteInput.text);
           var db = LocalStorage.openDatabaseSync("NotesDB", "1.0", "Notes DB", 10000);
           db.transaction(function(tx) {
           var res = tx.executeSql("SELECT * FROM notes WHERE id = ?", [currentNoteId]);
